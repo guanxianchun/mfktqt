@@ -1,0 +1,149 @@
+/*详细页banner样式*/
+#content .banner{
+	width:100%;
+}
+#content .banner img{
+	width:100%;
+	height: 100%;
+}
+/*详细页面面包屑样式*/
+#content .breadnav{
+	margin:16px auto;
+	width:1200px;	
+	overflow: hidden;
+}
+#content .breadnav ul>li{
+	float:left;
+	margin-left:4px;
+	line-height: 26px;
+	font-size: 15px;
+}
+#content .breadnav ul>li>a{
+	padding-right: 20px;
+	display: block;
+	width:100%;
+	height: 100%;
+	background:url("../img/rightarrowblack.png") no-repeat 70%;
+	color:#545454;
+}
+#content .breadnav .title{
+	color:#999;
+}
+#content .breadnav .productdetails{
+	color:#ac0d09;
+	font-weight: bold;
+}
+/*联系我们左边信息地址样式*/
+.intouch{
+	width:1200px;
+	margin:0px auto;
+}
+.intouchus{
+	padding:30px 42px;
+	margin-bottom: 48px;
+	width:328px;
+	height: 260px;
+	background-color: #ac0d09;
+	color:#fff;
+
+}
+.intouchus .title{
+	margin-bottom: 30px;
+}
+.intouchus .title h2{
+	font-family: "Candara";
+	font-size: 48px;
+}
+.intouchus .title h3{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 40px;
+}
+.intouchus .title .diliver{
+	width:54px;
+	height: 3px;
+	background-color: #fdd000;
+}
+.intouchus .address .company{
+	margin-left: -26px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.intouchus .address p{
+	padding-left: 26px;
+	color:#fff;
+	font-size: 15px;
+	line-height: 30px;
+}
+.intouchus .address p.telsy{
+	background:url("../img/telsy.png") no-repeat left center;
+}
+.intouchus .address p.emailsy{
+	background:url("../img/emailsy.png") no-repeat left center;
+}
+.intouchus .address p.jtaddy{
+	background:url("../img/jtaddy.png") no-repeat left center;
+}
+/*联系我们右边表单样式*/
+.intouch .touchform{
+	padding:0 36px;
+	width:700px;
+}
+.intouch .touchform h3{
+	padding-top:8px;
+	line-height: 52px;
+	font-size: 18px;
+	border-bottom: 1px solid #fdd000;
+}
+.intouch .touchform form{
+	margin-top: 36px;
+	font-size: 14px;
+}
+.intouch .touchform form input{
+	padding-left: 8px;
+	margin-right: 22px;
+	width:272px;
+	height: 30px;
+	margin-bottom: 28px;
+	border:1px solid #e6e6e6;
+	line-height: 30px;
+	
+}
+.intouch .touchform form textarea{
+	padding-left: 8px;
+	width:372px;
+	height: 146px;
+	line-height: 30px;
+	border:1px solid #e6e6e6;
+}
+.intouch .touchform form button{
+	margin-right: 14px;
+	width: 60px;
+	height: 32px;
+	color:#fff;
+	text-align: center;
+	line-height: 32px;
+	border-radius: 4px;
+	border:0;
+}
+.intouch .touchform .submit{
+	background-color: #ac0d09;
+}
+.intouch .touchform .submit:hover{
+	background-color:#971e1b
+}
+.intouch .touchform .reset{
+	background-color: #545454;
+}
+.intouch .touchform .reset:hover{
+	background-color: #343434;
+}
+#content .maps{
+	margin:0px auto;
+	margin-bottom: 36px;
+	width:1200px;
+	height: 480px;
+	border:1px solid #e6e6e6;
+}
+
+

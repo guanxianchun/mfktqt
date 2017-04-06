@@ -1,0 +1,79 @@
+/*详细页banner样式*/
+#content .banner{
+	width:100%;
+}
+#content .banner img{
+	width:100%;
+	height: 100%;
+}
+/*详细页面面包屑样式*/
+#content .breadnav{
+	margin:16px auto;
+	width:1200px;	
+	overflow: hidden;
+}
+#content .breadnav ul>li{
+	float:left;
+	margin-left:4px;
+	line-height: 26px;
+	font-size: 15px;
+}
+#content .breadnav ul>li>a{
+	padding-right: 20px;
+	display: block;
+	width:100%;
+	height: 100%;
+	background:url("../img/rightarrowblack.png") no-repeat 70%;
+	color:#545454;
+}
+#content .breadnav .title{
+	color:#999;
+}
+#content .breadnav .productdetails{
+	color:#ac0d09;
+	font-weight: bold;
+}
+/*公司简介*/
+#content .produce{
+	width:1200px;
+	margin:0 auto;
+	padding:36px 0;
+}
+#content .produce h3{
+	padding:0px 0 16px 0;
+	font-size: 24px;
+	font-weight: bold;
+	color:#545454;
+	line-height: 36px;
+	border-bottom: 2px solid #fdd000;
+}
+#content .produce h3>span{
+	color:#fdd000;
+}
+#content .produce .protimgtext .left{
+	float:left;
+	padding: 10px;
+}
+#content .produce .protimgtext{
+	width:1200px;
+	position: relative;
+	padding:26px 0 60px 0;
+	overflow: hidden;
+}
+#content .produce .protimgtext .right{
+	float:right;
+}
+#content .produce .protimgtext .right p{
+	position: absolute;
+	top:130px;
+	left:568px;
+	z-index: 2;
+	line-height: 26px;
+	font-size: 15px;
+
+}
+#content .produce .protimgtext .right p span{
+	font-size: 18px;
+	font-weight: bold;
+}
+
