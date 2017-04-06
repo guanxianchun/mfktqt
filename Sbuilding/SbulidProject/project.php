@@ -36,17 +36,17 @@
 			<ul class="proleftnav">
 				<li class="lines on">
 					<div>
-						<a href="" title="">木胶模板案例</a>
+						<a href="javascript:;" title="">木胶模板案例</a>
 					</div>
 				</li>
 				<li class="lines">
 					<div>
-						<a href="" title="">竹胶模板案例</a>
+						<a href="javascript:;" title="">竹胶模板案例</a>
 					</div>
 				</li>
 				<li class="lines">
 					<div>
-						<a href="" title="">建筑木方案例</a>
+						<a href="javascript:;" title="">建筑木方案例</a>
 					</div>
 				</li>
 			</ul>

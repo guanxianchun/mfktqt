@@ -70,15 +70,15 @@
 			<div class="recommend">
 				<h3>产品推荐</h3>
 				<ul>
-					<li class="on">
-						<a href="">
+					<li>
+						<a href="product_center.php?id=2">
 						<div><img src="img/prolist1.png" alt="" /></div>
 						<p class="title">高强度覆模竹胶板</p>
 						<p class="size">48尺：1220*2440(8-10mm)</p>
 						</a>
 					</li>
 					<li>
-						<a href="">
+						<a href="product_center.php?id=2">
 						<div><img src="img/prolist2.png" alt="" /></div>
 						<p class="title">高强度覆模竹胶板</p>
 						<p class="size">48尺：1220*2440(8-10mm)</p>
@@ -91,5 +91,6 @@
 </div>
 <!-- end content -->	
 <?php include 'html/common/footer.html' ?>
+<script type="text/javascript" src="js/newslist.js"></script>
 </body>
 </html>

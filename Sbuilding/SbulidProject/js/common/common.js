@@ -30,11 +30,11 @@ $(function(){
 	//鼠标移入移出处样式
 	//鼠标点击事件样式
 	$(".submenu").click(function(){
-		$(this).find("ul").toggleClass("shows").parent().siblings(".submenu").find("ul").removeClass("shows");
+		$(this).parent().find("ul").toggleClass("shows").parent().siblings().find("ul").removeClass("shows");
 		$(this).find("span").toggleClass("toleft").parent().siblings(".submenu").find("span").removeClass("toleft");
 	})
-	$(".submenu li").click(function(){
-		$(this).addClass("currentli");
+	$(".leftnav ul li").click(function(){
+		$(this).addClass("currentli").siblings().removeClass("currentli");
 	})
 })
 

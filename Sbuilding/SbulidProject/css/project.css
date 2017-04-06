@@ -59,7 +59,7 @@
 	background: url("../img/details11.png") no-repeat;
 }
 #content .details .left ul>li>div>a{
-	color:#ac0d09;
+	color:#545454;
 }
 #content .details .left ul>li.lines{
 	border-bottom:dashed 1px #e3b88c;
@@ -67,11 +67,15 @@
 #content .details .left ul>li.on,
 #content .details .left ul>li:hover{
 	position: relative;
-	width:190px;
+	width:184px;
 	background: url("../img/details6.png") no-repeat;
 	box-shadow: -4px 6px 10px #ddaf9c;
 	z-index: 4;
 	
+}
+#content .details .left ul>li.on a,
+#content .details .left ul>li:hover a{
+	color:#ac0d09!important;
 }
 /*右边文字图片样式*/
 #content .details .right{

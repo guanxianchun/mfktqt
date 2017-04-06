@@ -129,6 +129,12 @@
 	padding-top: 20px;
 	width:1200px;
 }
+#content .productlist .tabs>.protitle{
+	display: none;
+}
+#content .productlist div.protitle:first-child{
+	display: block;
+}
 #content .productlist .protitle>h3{
 	font-size: 16px;
 	font-weight: bold;

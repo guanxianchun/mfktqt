@@ -36,10 +36,10 @@
 	<div class="levelnav clearfix">
 		<div class="levelnavcont">	
 			<div class="left">
-				<ul>
-					<li class="on"><a href="#mjmb">木胶模板</a></li>
-					<li><a href="#zjmb">竹胶模板</a></li>
-					<li><a href="#jzmf">建筑木方</a></li>
+				<ul class="tabchange">
+					<li class="on"><a href="javascript:;">木胶模板</a></li>
+					<li><a href="javascript:;">竹胶模板</a></li>
+					<li><a href="javascript:;">建筑木方</a></li>
 				</ul>
 			</div>
 			<div class="right">
@@ -54,39 +54,39 @@
 	<!-- begin  productlist-->
 	<div class="productlist">
 		<div class="tabs">	
-			<div class="protitle" id="mjmb">	
+			<div class="protitle">	
 				<h3>木胶模板</h3>
 				<p>主要用于中高层房屋施工，采用优质的松木，桉木等全整芯一级芯板，每层板芯，层层过胶，二次成型，板材锯开无空洞，表面涂层为防水性能</p>
 				<div class="fltab">
 					<p>分类：</p>
 					<ul>
-						<li class="active"><a href="product_center.php" target="_blank" title="">红板</a></li>
-						<li><a href="product_center.php" target="_blank" title="">清水模板</a></li>
-						<li><a href="product_center.php" target="_blank" title="">覆塑模板</a></li>
+						<li class="active"><a href="product_center.php?id=1" target="_blank" title="">红板</a></li>
+						<li><a href="product_center.php?id=2" target="_blank" title="">清水模板</a></li>
+						<li><a href="product_center.php?id=3" target="_blank" title="">覆塑模板</a></li>
 					</ul>
 				</div>
 			</div>
-			<div class="protitle" id="zjmb">	
+			<div class="protitle">	
 				<h3>竹胶模板</h3>
 				<p>主要用于中高层房屋施工，采用优质的松木，桉木等全整芯一级芯板，每层板芯，层层过胶，二次成型，板材锯开无空洞，表面涂层为防水性能</p>
 				<div class="fltab">
 					<p>分类：</p>
 					<ul>
-						<li class="active"><a href="product_center.php" target="_blank" title="">红板</a></li>
-						<li><a href="product_center.php" target="_blank" title="">清水模板</a></li>
-						<li><a href="product_center.php" target="_blank" title="">覆塑模板</a></li>
+						<li class="active"><a href="product_center.php?id=1" target="_blank" title="">红板</a></li>
+						<li><a href="product_center.php?id=2" target="_blank" title="">清水模板</a></li>
+						<li><a href="product_center.php?id=3" target="_blank" title="">覆塑模板</a></li>
 					</ul>
 				</div>
 			</div>
-			<div class="protitle" id="jzmf">	
+			<div class="protitle">	
 				<h3>建筑木方</h3>
 				<p>主要用于中高层房屋施工，采用优质的松木，桉木等全整芯一级芯板，每层板芯，层层过胶，二次成型，板材锯开无空洞，表面涂层为防水性能</p>
 				<div class="fltab">
 					<p>分类：</p>
 					<ul>
-						<li class="active"><a href="product_center.php" target="_blank" title="">红板</a></li>
-						<li><a href="product_center.php" target="_blank" title="">清水模板</a></li>
-						<li><a href="product_center.php" target="_blank" title="">覆塑模板</a></li>
+						<li class="active"><a href="product_center.php?id=1" target="_blank" title="">红板</a></li>
+						<li><a href="product_center.php?id=2" target="_blank" title="">清水模板</a></li>
+						<li><a href="product_center.php?id=3" target="_blank" title="">覆塑模板</a></li>
 					</ul>
 				</div>
 			</div>
@@ -94,42 +94,42 @@
 		<div class="proitem">
 			<ul>
 				<li class="on">
-					<a href="product_details.php" title="" target="_blank">
+					<a href="product_details.php?id=1" title="" target="_blank">
 						<div><img src="img/prolist1.png" alt="" /></div>
 						<p class="title">高强度覆模竹胶板</p>
 						<p class="size">48尺：1220*2440(8-10mm)</p>
 					</a>
 				</li>
 				<li>
-					<a href="product_details.php" title="" target="_blank">
+					<a href="product_details.php?id=1" title="" target="_blank">
 						<div><img src="img/prolist2.png" alt="" /></div>
 						<p class="title">高强度覆模竹胶板</p>
 						<p class="size">48尺：1220*2440(8-10mm)</p>
 					</a>
 				</li>
 				<li>
-					<a href="product_details.php" title="" target="_blank">
+					<a href="product_details.php?id=1" title="" target="_blank">
 						<div><img src="img/prolist3.png" alt="" /></div>
 						<p class="title">高强度覆模竹胶板</p>
 						<p class="size">48尺：1220*2440(8-10mm)</p>
 					</a>
 				</li>
 				<li>
-					<a href="product_details.php" title="" target="_blank">
+					<a href="product_details.php?id=1" title="" target="_blank">
 						<div><img src="img/prolist4.png" alt="" /></div>
 						<p class="title">高强度覆模竹胶板</p>
 						<p class="size">48尺：1220*2440(8-10mm)</p>
 					</a>
 				</li>
 				<li>
-					<a href="product_details.php" title="" target="_blank">
+					<a href="product_details.php?id=1" title="" target="_blank">
 						<div><img src="img/prolist5.png" alt="" /></div>
 						<p class="title">高强度覆模竹胶板</p>
 						<p class="size">48尺：1220*2440(8-10mm)</p>
 					</a>
 				</li>
 				<li>
-					<a href="product_details.php" title="" target="_blank">
+					<a href="product_details.php?id=1" title="" target="_blank">
 						<div><img src="img/prolist6.png" alt="" /></div>
 						<p class="title">高强度覆模竹胶板</p>
 						<p class="size">48尺：1220*2440(8-10mm)</p>
@@ -138,7 +138,7 @@
 			</ul>
 		</div>
 		<div class="more">
-			<a class="morebtn" href="product_details.php" title="" target="_blank">查看更多</a>
+			<a class="morebtn" href="product_details.php?id=1" title="" target="_blank">查看更多</a>
 		</div>
 	</div>
 	<!-- end  productlist-->
@@ -200,7 +200,7 @@
 			<div class="right">
 				<p><span>索一</span>有限公司成立于1997年，位于华北明珠白洋淀东淀，美丽的大清河畔，全国最大的胶合板板材生产基地--中国河北廊坊市左各庄镇，是一家专业从事研究、生产、销售和售后服务为一体的建筑用木模板制造企业。作为北方销售中心的吉运佳（天津）进出口有限公司，专业供应河北金亨建筑模板，天津建筑模板，其注册产品“金亨”、“筑友”、“海容筑业”牌清水模板、松木模板率先通过质量监督检验。企业通过ISO9001 质量管理体系认证，并荣获“中国著名商标”、“廊坊市质量信得过产品”、“质量、服务、信誉AAA示范企业”等荣誉。产品畅销天津、郑州、南京、长春、沈阳，吉林，大连，贵阳，四川，河南，山东等地等多省市地区，博得各地客户亲睐，享有极高赞... </p>
 				<div class="more">	
-				<button class="morebtn">查看详细</button>
+				<a class="morebtn" href="aboutus.php" title="" target="_blank">查看详细</a>
 				</div>
 			</div>
 		</div>

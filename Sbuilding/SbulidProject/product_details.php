@@ -35,35 +35,36 @@
 		<div class="left">
 			<div class="imgs"></div>
 			<ul class="leftnav">
-				<li class="one">
-					<div>
+				<li>
+					<div class="bg1 submenu">
 						<a href="javascript:;">木胶模板</a>
+						<span class="toleft"></span>
+					</div>
+					<ul class="shows">
+						<li class="currentli"><a href="javascript:;">红板</a></li>
+						<li><a href="javascript:;">清水模板</a></li>
+						<li><a href="javascript:;">覆塑模板</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="bg2 submenu">
+						<a href="javascript:;">竹胶模板</a>
 						<span></span>
 					</div>
 					<ul>
-						<li><a href="">红板</a></li>
-						<li><a href="">清水模板</a></li>
-						<li><a href="">覆塑模板</a></li>
+						<li><a href="javascript:;">覆膜竹胶板</a></li>
+						<li><a href="javascript:;">桥梁竹模板</a></li>
+						<li><a href="javascript:;">砖托板</a></li>
 					</ul>
 				</li>
-				<li class="on two">
-					<div>
-						<a href="javascript:;">竹胶模板</a>
-					</div>
-					<ul>
-						<li><a href="">覆膜竹胶板</a></li>
-						<li><a href="">桥梁竹模板</a></li>
-						<li><a href="">砖托板</a></li>
-					</ul>
-				</li>
-				<li class="three">
-					<div>
+				<li>
+					<div class="bg3 submenu">
 						<a href="javascript:;">建筑木方</a>
 						<span></span>
 					</div>
 					<ul>
-						<li><a href="">房建木方</a></li>
-						<li><a href="">桥梁工程木方</a></li>
+						<li><a href="javascript:;">房建木方</a></li>
+						<li><a href="javascript:;">桥梁工程木方</a></li>
 					</ul>
 				</li>
 			</ul>

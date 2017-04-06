@@ -69,12 +69,13 @@ a:hover{
 /*二维码样式*/
 #header .code{
 	padding: 0 16px;
+	margin-top: -16px;
 	float:left;
 }
 #header .code p{
 	padding-right: 12px;
 	float:left;
-	line-height: 80px;
+	line-height: 100px;
 }
 #header .code .codeimg{
 	float:left;
@@ -89,6 +90,7 @@ a:hover{
 	color:#fff!important;
 }
 #header .nav{
+	margin-top: -3px;
 	width:100%;
 	border-top: 1px solid #e5e5e5 ;
 }
@@ -377,9 +379,9 @@ a:hover{
 #content .details .left .leftnav ul{
 	display: none;
 }
-#content .details .left .leftnav>li{
-	padding:0 60px;
-	width:180px;
+#content .details .left .leftnav .submenu{
+	width:300px;
+	text-indent: 60px;
 	line-height: 60px;
 }
 #content .details .left .leftnav>li>div>a{
@@ -388,110 +390,44 @@ a:hover{
 #content .details .left .leftnav>li>ul{
 	display: none;
 }
-#content .details .left .leftnav>li.one{
+#content .details .left .leftnav>li>ul li{
+	width: 300px;
+	height: 60px;
+	line-height: 60px;
+	text-indent: 60px;
+	background: url("../img/details6.png");
+	border-bottom: 1px dashed #e3b88c;
+}
+#content .details .left .leftnav .bg1{
 	background: url("../img/details03.png") no-repeat;
 }
-#content .details .left .leftnav>li.three{
+#content .details .left .leftnav .bg3{
 	background: url("../img/details14.png") no-repeat;
 }
-#content .details .left .leftnav>li.two{
+#content .details .left .leftnav .bg2{
 	background: url("../img/details14.png") no-repeat;
 }
-#content .details .left .leftnav>li span{
+#content .details .left .leftnav .submenu span{
 	display: inline-block;
 	float:right;
 	width:20px;
 	height: 20px;
-	margin:20px 0;
+	margin:20px 60px;
 	background: url("../img/navupmenu.png") no-repeat;
 
 } 
-#content .details .left .leftnav>li.submenu li{
-	text-indent: 60px;
-	margin-left: -60px;
-	width: 300px;
-	background: url("../img/details6.png");
-	border-bottom: 1px dashed #e3b88c;
-}
 .shows{
 	display: block!important;
 }
 .toleft{
 	background: url("../img/navdropmenu.png") no-repeat!important;
 }
-.currentli{
-	width: 310px;
-	box-shadow: -4px 6px 10px #ddaf9c;
+.currentli,#content .details .left .leftnav>li>ul li:hover{
+	margin-bottom: 3px;
+	margin-top:0\9;
+	width: 304px!important;
+	box-shadow: -4px 6px 10px #ddaf9c!important;
 }
-/* #content .details .left .leftnav>li>ul>li,
-#content .details .left .leftnav>li:hover>ul>li{
-	padding:0;
-	width:300px;
-	height: 60px;
-	margin-left: -60px;
-	line-height: 60px;
-	border-top: 1px dashed #e3b88c;
-	color:#545454;
-	text-indent: 60px;
-
-}
-#content .details .left .leftnav>li>ul>li,
-#content .details .left .leftnav>li:hover>ul>li{
-	background: url("../img/details11.png") no-repeat;
-} */
-/* #content .details .left .leftnav>li.on,#content .details .left .leftnav>li:hover{
-	width:310px;
-	background: url("../img/details6.png") no-repeat;
-	
-}
-#content .details .left .leftnav>li.on a:hover{
+.currentli>a{
 	color:#ac0d09;
 }
-#content .details .left .leftnav>li:hover span,
-#content .details .left .leftnav>li.on span{
-	display: none!important;
-}
-#content .details .left .leftnav>li.on ul,
-#content .details .left .leftnav>li:hover ul{
-	display: block;
-}
-#content .details .left .leftnav>li.on>div,
-#content .details .left .leftnav>li:hover>div{
-	position: relative;
-	left: -60px;
-	width: 310px;
-	height: 60px;
-	text-indent: 60px;
-	box-shadow: -4px 6px 10px #ddaf9c;
-	z-index: 4;
-}
-#content .details .left .leftnav>li.on>ul>li:first-child,
-#content .details .left .leftnav>li:hover>ul>li:first-child{
-	margin-top:3px;
-	margin-top:0\9;
-}
-#content .details .left .leftnav>li.on>ul>li,
-#content .details .left .leftnav>li:hover>ul>li{
-	padding:0;
-	width:300px;
-	height: 60px;
-	margin-left: -60px;
-	line-height: 60px;
-	border-top: 1px dashed #e3b88c;
-	color:#545454;
-	text-indent: 60px;
-
-}
-#content .details .left .leftnav>li.on>ul>li,
-#content .details .left .leftnav>li:hover>ul>li{
-	background: url("../img/details11.png") no-repeat;
-}
-#content .details .left .leftnav>li span{
-	display: inline-block;
-	float:right;
-	width:20px;
-	height: 20px;
-	margin:20px 0;
-	background: url("../img/navdropmenu.png") no-repeat;
-
-} */

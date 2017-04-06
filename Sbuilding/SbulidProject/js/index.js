@@ -34,5 +34,11 @@ $(function(){
     $(window).scrollTop(0);
     return false;
   })
+  //选项卡切换效果
+  $(".tabchange li").click(function(){
+      $(this).addClass("on").siblings().removeClass("on");
+      var index=$(this).index();
+      $(".tabs>div").eq(index).show().siblings().hide();
+  })
     
 })
